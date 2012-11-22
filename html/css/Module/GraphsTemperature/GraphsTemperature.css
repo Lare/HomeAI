@@ -1,0 +1,12 @@
+#Graphs  {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Graphs div.GroupImage {
+    margin: 0 auto 10px auto;
+}
+
+#Graphs div.GroupImage img {
+    border: none;
+}

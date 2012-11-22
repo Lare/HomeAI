@@ -1,0 +1,5 @@
+/config/db.ini
+/config/site.ini
+/config/rrd.ini
+/data/temperatures.log
+/html/.htaccess

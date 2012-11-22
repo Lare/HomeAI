@@ -1,0 +1,32 @@
+;
+;   Configuration of database connections
+;
+;   This file contains configuration information about all database connections
+;   which are used by Task Board.
+;
+;   Configurations are made via following parameters
+;
+;   driver      The driver specifies the actual implementations of the DBAL
+;                   *   pdo_mysql: A MySQL driver that uses the pdo_mysql PDO extension.
+;                   *   pdo_sqlite: An SQLite driver that uses the pdo_sqlite PDO extension.
+;                   *   pdo_pgsql: A PostgreSQL driver that uses the pdo_pgsql PDO extension.
+;                   *   pdo_oci: An Oracle driver that uses the pdo_oci PDO extension. Note that
+;                       this driver caused problems in our tests. Prefer the oci8 driver if possible.
+;                   *   oci8:` An Oracle driver that uses the oci8 PHP extension.
+;   user        Username to use when connecting to the database.
+;   password    Password to use when connecting to the database.
+;   options     Driver spesified configuration definitions. These are key definitions, use ';'
+;               -separator if needed.
+;   values      Driver spesified configuration definitions. These are value definitions, use ';'
+;               -separator if needed.
+;   prefix      Database table prefix information.
+;   charset     Used charset of database connection. Default is UTF-8
+;
+
+driver       =  ""
+user         =  ""
+password     =  ""
+host         =  ""
+port         =  ""
+dbname       =  ""
+charset      =  "utf8"

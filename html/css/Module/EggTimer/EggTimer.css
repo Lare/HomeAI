@@ -1,0 +1,10 @@
+.hasCountdown {
+    background-color: transparent;
+    border: none;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.Alert {
+    text-decoration: blink;
+}

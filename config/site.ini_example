@@ -1,0 +1,13 @@
+;
+;   Site specified configurations.
+;
+;   These settings are converted to PHP global constants.
+;
+;   BASEURL     =   Site baseurl definition
+;   SECRETKEY   =   Used secretkey for password authetication.
+;                   Note: Do not change this after users are created!
+;
+
+BASEURL     =   ""
+SECRETKEY   =   ""
+

@@ -1,0 +1,1 @@
+<a id="BackIcon" href="{$baseUrl}?Module=GraphsTemperature" data-icon="back" data-iconpos="notext" data-ajax="false">Takaisin</a>

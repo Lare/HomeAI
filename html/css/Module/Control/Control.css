@@ -1,0 +1,78 @@
+#Right,
+#Left {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+#Right {
+    padding-left: 5px;
+}
+
+#Left {
+    padding-right: 5px;
+}
+
+ul#Controls {
+    width: 100%;
+}
+
+ul#Controls li .ui-checkbox,
+ul#Controls li .ui-radio {
+    margin: 0;
+}
+
+ul#Controls li span {
+    display: inline-block;
+}
+
+ul#Controls li div.iPhoneCheckContainer {
+    float: right;
+    position: relative;
+    top: -3px;
+}
+
+#Temperature {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#TemperatureBox {
+}
+
+#TemperatureBox ul li span {
+    float: right;
+}
+
+#ControlsImage {
+    position: relative;
+    float: right;
+    background-image: url('../../../images/icons/158-wrench-2.png');
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    top: -3px;
+    right: -5px;
+}
+
+#TemperatureImage {
+    position: relative;
+    float: right;
+    background-image: url('../../../images/icons/93-thermometer.png');
+    width: 12px;
+    height: 28px;
+    display: inline-block;
+    top: -5px;
+    right: -5px;
+}
+
+#ActionImage {
+    position: relative;
+    float: right;
+    background-image: url('../../../images/icons/20-gear2.png');
+    width: 26px;
+    height: 28px;
+    display: inline-block;
+    top: -5px;
+    right: -7px;
+}

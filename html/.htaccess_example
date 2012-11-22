@@ -1,0 +1,17 @@
+#
+#  Settings for PHP
+#   1. Force register_globals to OFF
+#   2. Force magic_quotes_gpc to OFF
+#   3. Set of
+#
+php_flag register_globals Off
+php_flag magic_quotes_gpc Off
+
+php_value include_path /var/www/lare/php/
+
+#  Estet‰‰n hakemistolistaukset.
+IndexIgnore *
+
+#  ModReWrite asetukset
+RewriteEngine on
+Options +FollowSymlinks

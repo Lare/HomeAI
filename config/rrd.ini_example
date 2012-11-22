@@ -1,0 +1,12 @@
+;
+;   RRD image configurations.
+;
+;   rrdPath     =   Full path to RRD files.
+;   rrdImages   =   Relative path from site BASEPATH to RRD images
+;   imgUrl      =   Relative path from site BASEURL to RRD images
+;
+
+rrdPath     =   "/var/www/lare/rrd/"
+rrdImages   =   "html/images/graphs/"
+imgUrl      =   "images/graphs/"
+

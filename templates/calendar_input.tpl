@@ -1,0 +1,1 @@
+    <input name="ClockDate" id="ClockDate" type="date" data-role="datebox" data-options='{literal}{{/literal}"mode": "calbox", "calStartDay": 1, "pickPageOHighButtonTheme": "b", "highDates": [{foreach from=$Events item=date name=events}"{$date}"{if $smarty.foreach.events.last}{else},{/if}{/foreach}]{literal}}{/literal}'>
