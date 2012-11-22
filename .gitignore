@@ -3,3 +3,13 @@
 /config/rrd.ini
 /data/temperatures.log
 /html/.htaccess
+/html/images/graphs/autotalli.png
+/html/images/graphs/kosteudet.png
+/html/images/graphs/power_1.png
+/html/images/graphs/sisa.png
+/html/images/graphs/takka.png
+/html/images/graphs/tuloilma.png
+/html/images/graphs/ulko.png
+/html/images/graphs/yk_kosteus.png
+/html/images/graphs/yk_lampo.png
+/libs/doctrine-dbal/Doctrine/Symfony/Component/Console/*
